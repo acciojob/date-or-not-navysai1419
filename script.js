@@ -8,8 +8,8 @@ function isDate(input) {
   if (typeof input === 'string') {
     const parsedDate = new Date(input);
     return !isNaN(parsedDate.getTime()); // Check if it's a valid date
-  }
-
+  } 
+ 
   // If the input is not a Date object or a string, return false
   return false;
 }
